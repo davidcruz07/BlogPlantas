@@ -1,0 +1,13 @@
+/* Estilos básicos para que no se vea tan rígido */
+body {
+    font-family: sans-serif;
+}
+
+/* Un pequeño efecto cuando pasas el ratón por la tarjeta */
+.tarjeta-planta {
+    transition: transform 0.2s;
+}
+
+.tarjeta-planta:hover {
+    transform: translateY(-5px);
+}
